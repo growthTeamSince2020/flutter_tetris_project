@@ -1,4 +1,5 @@
 import 'dart:async';
+// import 'dart:html';
 import 'package:flutter/material.dart';
 import 'block.dart';
 import 'dart:math';
@@ -10,12 +11,11 @@ const BLOCKS_X = 10;// ゲームの幅
 //LANDED_BLOCK:ブロックが別のブロックに着地した時
 //HIT_WALL:ブロックが壁にあたった時
 //HIT_BLOCK:ブロックが別のブロックにあたった時
-//1.50前後3/3
 enum Collision { LANDED, LANDED_BLOCK, HIT_WALL, HIT_BLOCK, NONE}
 const BLOCKS_Y = 20;// ゲームの高さ
 const GAME_AREA_BORDER_WIDTH = 2.0; // ゲームエリアの枠線の幅
 // const REFRESH_RATE = 1; //ゲーム速度
-const REFRESH_RATE = 300; //ゲーム速度
+const REFRESH_RATE = 500; //ゲーム速度
 const SUB_BLOCK_EDGE_WIDTH = 2.0;
 
 
@@ -32,8 +32,9 @@ class GameState extends State{
   double subBlockWidth;
   // Duration duration = Duration(seconds: REFRESH_RATE);//ゲームの速度
   Duration duration = Duration(milliseconds: REFRESH_RATE);//ゲームの速度
-
   GlobalKey _keyGameArea = GlobalKey();
+  //入力操作の変数
+  BlockMovement action;
   Block block;
   Timer timer;
   bool isPlaying = false;//ゲーム中のフラグ
@@ -92,6 +93,35 @@ class GameState extends State{
     var status = Collision.NONE;
     //flutterがブロックの位置と状態が変化したことを認識するため、setStateを呼び出す
     setState(() {
+      //actionがnullでないときユーザの操作を実行
+      if(action != null){
+        if(!checkOnEdge(action)){
+          block.move(action);
+        }
+      }
+      //他のブロックに当たったらそのアクションを戻す。
+      for(var oldSubBlock in oldSubBlocks){
+        for(var subBlock in block.subBlocks){
+          var x = block.x + subBlock.x;
+          var y = block.y + subBlock.y;
+          if(x == oldSubBlock.x && y == oldSubBlock.y){
+            switch(action){
+              case BlockMovement.LEFT:
+                block.move(BlockMovement.RIGHT);
+                break;
+              case BlockMovement.RIGHT:
+                block.move(BlockMovement.LEFT);
+                break;
+              case BlockMovement.ROTATE_CLOCKWISE:
+                block.move(BlockMovement.ROTATE_COUNTER_CLOCKWISE);
+                break;
+              default:
+                break;
+            }
+          }
+        }
+      }
+
       //ブロックが地面についたか判定
       if(!checkAtBottom()){
         if(!checkAboveBlock()){
@@ -112,6 +142,9 @@ class GameState extends State{
         });
         block = getNewBlock();
       }
+      //実行されたユーザ操作を無効化（クリアする）
+      action = null;
+
     });
   }
   
@@ -132,6 +165,11 @@ class GameState extends State{
       }
     }
     return false;
+  }
+  //左右の壁当たり判定
+  bool checkOnEdge(BlockMovement action){
+    return (action == BlockMovement.LEFT && block.x <= 0)||
+        (action == BlockMovement.RIGHT && block.x + block.width >= BLOCKS_X);
   }
 
   Widget getPositionedSquareContainer(Color color, int x, int y){
@@ -173,24 +211,36 @@ class GameState extends State{
 
   @override
   Widget build(BuildContext context){
-    //AspectRatioを使うことでwidgetのアスペクト比を一定に保つことができる
-    return AspectRatio(
-      aspectRatio: BLOCKS_X / BLOCKS_Y,//高さに対する幅の比率
-    // child  単一のウィジットをとります。 Containerは子のサイズやpadding,marginなどの設定ができる。
-      child: Container(
-        key: _keyGameArea,// ゲームエリアの鍵
-        //BoxDecorationのクラスには、ボックスを描画するためのさまざまな方法を提供します。
-        decoration: BoxDecoration(
-          color: Colors.indigo[800],
-          border:  Border.all(
-            width: GAME_AREA_BORDER_WIDTH,
-            color: Colors.white
+    return GestureDetector(//GestureDetectorはタッチ/ボタン入力検出用途で利用するための関数
+      onHorizontalDragUpdate: (details){
+        if(details.delta.dx > 0){//delta 前回からの変化量
+          action = BlockMovement.RIGHT;
+        } else{
+          action = BlockMovement.LEFT;
+        }
+      },
+        onTap: (){
+          action = BlockMovement.ROTATE_CLOCKWISE;
+        },
+      //AspectRatioを使うことでwidgetのアスペクト比を一定に保つことができる
+       child: AspectRatio(
+        aspectRatio: BLOCKS_X / BLOCKS_Y,//高さに対する幅の比率
+      // child  単一のウィジットをとります。 Containerは子のサイズやpadding,marginなどの設定ができる。
+        child: Container(
+          key: _keyGameArea,// ゲームエリアの鍵
+          //BoxDecorationのクラスには、ボックスを描画するためのさまざまな方法を提供します。
+          decoration: BoxDecoration(
+            color: Colors.indigo[800],
+            border:  Border.all(
+              width: GAME_AREA_BORDER_WIDTH,
+              color: Colors.white
+            ),
+           //すべての範囲の border を作るクラス　radiusは半径の意 circularは円形の意
+           borderRadius: BorderRadius.all(Radius.circular(10.0))//すべての範囲の border を作るクラス　radiusは半径の意
           ),
-         //すべての範囲の border を作るクラス　radiusは半径の意 circularは円形の意
-         borderRadius: BorderRadius.all(Radius.circular(10.0))//すべての範囲の border を作るクラス　radiusは半径の意
+          child: drawBlocks(),
         ),
-        child: drawBlocks(),
-      ),
+      )
     );
   }
 }
