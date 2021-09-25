@@ -1,11 +1,19 @@
 import 'dart:async';
 // import 'dart:html';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'main.dart';
 import 'block.dart';
 import 'dart:math';
 import 'sub_block.dart';
+import 'package:audioplayers/audio_cache.dart';
+import 'package:audioplayers/audioplayers.dart'; // AudioPlayerインスタンスを使う場合
+
 
 const BLOCKS_X = 10;// ゲームの幅
+// AudioCacheを用いて再生
+final soundplay = AudioCache();
+AudioPlayer player; // create this
 
 //LANDED:ブロックが地面にあたった時
 //LANDED_BLOCK:ブロックが別のブロックに着地した時
@@ -15,7 +23,7 @@ enum Collision { LANDED, LANDED_BLOCK, HIT_WALL, HIT_BLOCK, NONE}
 const BLOCKS_Y = 20;// ゲームの高さ
 const GAME_AREA_BORDER_WIDTH = 2.0; // ゲームエリアの枠線の幅
 // const REFRESH_RATE = 1; //ゲーム速度
-const REFRESH_RATE = 500; //ゲーム速度
+const REFRESH_RATE = 800; //ゲーム速度
 const SUB_BLOCK_EDGE_WIDTH = 2.0;
 
 
@@ -28,7 +36,8 @@ class Game extends StatefulWidget{
   State createState() => GameState();
 }
 
-class GameState extends State{
+class GameState extends State<Game>{
+  bool isGameOver = false;//ゲームオーバーフラグ
   double subBlockWidth;
   // Duration duration = Duration(seconds: REFRESH_RATE);//ゲームの速度
   Duration duration = Duration(milliseconds: REFRESH_RATE);//ゲームの速度
@@ -37,7 +46,6 @@ class GameState extends State{
   BlockMovement action;
   Block block;
   Timer timer;
-  bool isPlaying = false;//ゲーム中のフラグ
   List<SubBlock> oldSubBlocks;//止まったブロックを保存
 
   //新しいテトリミノをランダムで作成
@@ -69,14 +77,21 @@ class GameState extends State{
   // ゲームスタート準備
   void startGame(){
     print("ゲーム開始");
-    isPlaying = true;
+    soundplay.play('start.mp3');
+    playBockSound();//バック音楽
+    isGameOver = false;
+    Provider.of<Data>(context,listen:false).setIsPlaying(true);
+    Provider.of<Data>(context,listen:false).setScore(0);//スコアの初期化
     oldSubBlocks = <SubBlock>[];
     // GlobalKeyを使い、ゲームエリアの現在のcontextにアクセス
     // findRenderObjectでレンダリングされたゲームエリアのオブジェクトを取得できる
     RenderBox renderBoxGame = _keyGameArea.currentContext.findRenderObject();
 
     // 利用するゲームエリアは、ゲームエリアの枠線の幅を含まない
-    subBlockWidth =(renderBoxGame.size.width -GAME_AREA_BORDER_WIDTH * 2) / BLOCKS_X;
+    subBlockWidth =(renderBoxGame.size.width - GAME_AREA_BORDER_WIDTH * 2) / BLOCKS_X;
+
+    Provider.of<Data>(context, listen: false).setNextBlock(getNewBlock());//新しいブロックの取得
+
     block = getNewBlock();
     //300ミリ秒毎にonPlay(コールバック)を呼び出す
     timer = Timer.periodic(duration, onPlay);
@@ -84,7 +99,9 @@ class GameState extends State{
   //ゲーム停止
   void endGame(){
     print("ゲーム終了");
-    isPlaying = false;
+    stopBockSound();
+    soundplay.play('end.mp3');
+    Provider.of<Data>(context,listen:false).setIsPlaying(false);
     timer.cancel();
   }
 
@@ -97,6 +114,7 @@ class GameState extends State{
       if(action != null){
         if(!checkOnEdge(action)){
           block.move(action);
+          soundplay.play('sousa.mp3');
         }
       }
       //他のブロックに当たったらそのアクションを戻す。
@@ -133,21 +151,69 @@ class GameState extends State{
       } else{
         status = Collision.LANDED;
       }
-      if(status == Collision.LANDED || status == Collision.LANDED_BLOCK){
+      if(status == Collision.LANDED_BLOCK && block.y < 0){
+        isGameOver = true;
+
+        endGame();
+      }else if(status == Collision.LANDED || status == Collision.LANDED_BLOCK){
         // 地面についたブロックを保存
         block.subBlocks.forEach((subBlock){
           subBlock.x += block.x;
           subBlock.y += block.y;
           oldSubBlocks.add(subBlock);
         });
-        block = getNewBlock();
+        block = Provider.of<Data>(context,listen: false).nextBlock;
+        Provider.of<Data>(context,listen: false).setNextBlock(getNewBlock());
       }
       //実行されたユーザ操作を無効化（クリアする）
       action = null;
+      //スコアカウント&行削除
+      updateScore();
 
     });
   }
-  
+
+  // スコアカウンター
+  void updateScore(){
+    var combo = 9; //点数
+    Map<int,int> rows = Map(); // 行番と行のブロック数の保持
+    List<int> rowsToBeRemoved = [];
+
+    // 行毎の横ブロックの数を数えrowsに格納
+    oldSubBlocks?.forEach((subBlock) {
+      rows.update(subBlock.y, (value) => ++value, ifAbsent: () => 1);
+    });
+
+    rows.forEach((rowNum, count) {
+      if(count == BLOCKS_X){//横ブロックが設定値と同じなら（最大なら）ブロック消し
+        soundplay.play('blockclear.mp3');
+        combo++;
+        Provider.of<Data>(context,listen:false).addScore(combo);//1行3ポイント換算
+        
+        print("rowNum : $rowNum");
+        rowsToBeRemoved.add(rowNum);
+      }
+    });
+    //削除予定行が１つでもある場合
+    if(rowsToBeRemoved != null && rowsToBeRemoved.length > 0){
+      removeRows(rowsToBeRemoved);
+    }
+  }
+  //行削除
+  void removeRows(List<int> rowsToBeRemoved){
+    rowsToBeRemoved.sort();
+    rowsToBeRemoved.forEach((rowNum) {
+      //oldSubBlocksの削除予定行番号と一緒なら削除する
+      oldSubBlocks.removeWhere((subBlock) => subBlock.y == rowNum);
+      oldSubBlocks.forEach((subBlock) {
+        if(subBlock.y < rowNum){
+          ++subBlock.y;//消したoldSubBlocks分、行番（Y）をプラスして下に来るようにする
+        }
+      });
+    });
+  }
+
+
   //地面にブロックが着地したか判定
   bool checkAtBottom(){
     return  block.y + block.height == BLOCKS_Y;
@@ -204,9 +270,37 @@ class GameState extends State{
           getPositionedSquareContainer(
             //絶対座標にする（サブブロックの座標はブロックの相対位置なのでそれぞれ足す）
               oldSubBlock.color, oldSubBlock.x, oldSubBlock.y));
+
+      if(isGameOver){
+        subBlocks.add(getGameOverRect());
+        soundplay.play('gameover.mp3');
+      }
       return Stack(children: subBlocks,);
     });
     return Stack(children: subBlocks,);
+  }
+
+  Widget getGameOverRect(){
+    return Positioned(
+        child:Container(
+          width: subBlockWidth * 8.0,
+          height: subBlockWidth * 3.0,
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            color: Colors.redAccent,
+            borderRadius: BorderRadius.all(Radius.circular(10.0)),
+          ),
+          child: Text(
+            'Game Over',
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
+          ),
+        ),
+        left: subBlockWidth * 1.0,
+        top: subBlockWidth * 6.0);
   }
 
   @override
@@ -242,5 +336,11 @@ class GameState extends State{
         ),
       )
     );
+  }
+  void playBockSound() async{
+    player = await soundplay.play('backgroundSound/edgewords.mp3'); // assign player here
+  }
+  void stopBockSound(){
+    player.stop();
   }
 }

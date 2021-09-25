@@ -1,19 +1,28 @@
 import 'package:flutter/material.dart';
 import 'package:tetris_mobile_app/next_block.dart';
-
-//importしている「material.dart」は、マテリアルデザインのUIがまとめられたパッケージです。
+import 'package:provider/provider.dart';
+import 'package:flutter/services.dart';
 import 'score_bar.dart';
 import 'game.dart';
+import 'block.dart';
+
 
 //Widget：FlutterのUIを構築しているパーツのことをWidget
 // コンストラクタでrunApp関数を呼び出し
 // runAppメソッドは引数のwidgetをスクリーンにアタッチする
-void main() => runApp(MyApp());
+void main() => runApp(
+  ChangeNotifierProvider(
+    create: (context) => Data(),
+    child: MyApp(),
+  ),
+);
 
 // MyApp： 自分で作成したWidget
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    //常に画面を縦向きにする
+    SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
     return MaterialApp(
       home: Tetris(),
     );
@@ -36,6 +45,7 @@ class _TetrisState extends State {
   // build()：MaterialAppで画面のテーマ等を設定できる
   @override
   Widget build(BuildContext context) {
+
     // Scaffold： マテリアルデザイン用Widget
     return Scaffold(
       //AppBar： アプリケーションバー用Widget
@@ -84,26 +94,17 @@ class _TetrisState extends State {
                             ElevatedButton(
                               //RaisedButtonが非推奨なのでElevatedButton
                               child: Text(
-                                // グローバルキーを使って、GameStateにアクセスする
-                                // isPlaying変数には、gamestateのcurrentStateでアクセスする
-                                _keyGame.currentState != null
-                                    && _keyGame.currentState.isPlaying ////ゲーム中のフラグ
-                                    ? 'End': 'Start',
+                                Provider.of<Data>(context).isPlaying
+                                    ? 'Retry': 'Start',
                                 style: TextStyle(
                                     fontSize: 18,
                                     color: Colors.grey[200],
                                 ),
                               ),
                               onPressed: () {
-                                //Flutterにボタンを再描画させるため、setStateを使う
-                                setState(() {
-                                  // グローバルキーを使って、GameStateにアクセスする
-                                  _keyGame.currentState != null
-                                      && _keyGame.currentState.isPlaying
+                                  Provider.of<Data>(context, listen: false).isPlaying
                                       ? _keyGame.currentState.endGame()
                                       : _keyGame.currentState.startGame();
-                                });
-
                               },
                             )
                           ],
@@ -118,6 +119,60 @@ class _TetrisState extends State {
         ),
       ),
       backgroundColor: Colors.deepPurpleAccent, //枠というか全体の背景色
+    );
+  }
+}
+//変更通知機能
+class Data with ChangeNotifier{
+  int score = 0;
+  bool isPlaying = false;
+  Block nextBlock;
+
+  void setScore(score){
+    this.score = score;
+    notifyListeners();
+  }
+  void addScore(score){
+    this.score += score;
+    notifyListeners();
+  }
+  void setIsPlaying(isPlaying){
+    this.isPlaying = isPlaying;
+    notifyListeners();
+  }
+  void setNextBlock(Block nextBlock){
+    this.nextBlock = nextBlock;
+    notifyListeners();
+  }
+
+  Widget getNextBlockWidget(){
+    if(!isPlaying) return Container();
+
+    var width = nextBlock.width;
+    var height = nextBlock.height;
+    var color;
+
+    List<Widget> columns =[];
+    for(var y= 0; y < height; ++ y){
+      List<Widget> rows =[];
+      for(var x=0; x < width; ++ x){
+        if(nextBlock.subBlocks
+        .where((subBlock) => subBlock.x == x && subBlock.y == y)
+        .length > 0
+        ){
+          color = nextBlock.color;
+        }else{
+          color = Colors.transparent;
+        }
+        rows.add(Container(width: 12, height: 12, color: color));
+      }
+      columns.add(
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: rows,)
+      );
+    }
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: columns,
     );
   }
 }

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'main.dart';
 
 //次のテトリミノを表示する。
 class NextBlock extends StatefulWidget {
@@ -30,6 +32,9 @@ class _NextBlockState extends State{
               aspectRatio: 1, //正方形にする
               child: Container(
                 color: Colors.indigo[600],
+                child: Center(
+                  child: Provider.of<Data>(context, listen:false).getNextBlockWidget(),
+                ),
               ),
             ),
           ],
