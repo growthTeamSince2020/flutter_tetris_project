@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'main.dart';
+import '../../../state/tetrisData.dart';
 
 //次のテトリミノを表示する。
 class NextBlock extends StatefulWidget {

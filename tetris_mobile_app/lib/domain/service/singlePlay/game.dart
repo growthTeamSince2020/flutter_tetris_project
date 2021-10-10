@@ -1,13 +1,13 @@
 import 'dart:async';
-// import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'main.dart';
-import 'block.dart';
+import '../common/tetrisLogic/block.dart';
+import '../common/tetrisLogic/sub_block.dart';
+import '../../state/tetrisData.dart';
 import 'dart:math';
-import 'sub_block.dart';
 import 'package:audioplayers/audio_cache.dart';
 import 'package:audioplayers/audioplayers.dart'; // AudioPlayerインスタンスを使う場合
+
 
 
 const BLOCKS_X = 10;// ゲームの幅

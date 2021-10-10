@@ -1,0 +1,323 @@
+インデックス: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c8a4172a-fff1-415f-b90c-fa251b1bad96\" name=\"Default Changelist\" comment=\"game.dart 　&#10;不具合がある状態で一旦コミット。109行目　drawBlocksメソッド付近&#10;---------------------&#10;subBlocksにPositionedの要素を入れて表示されると、ブロックが表示されない不具合改修（だだ配列に詰めないでブロックを表示するとちゃんと表示される）。これが本当に原因なのか特定も必要。\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/flutter_project.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/flutter_project.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/tetris_mobile_app/lib/game.dart\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/tetris_mobile_app/lib/game.dart\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/tetris_mobile_app/pubspec.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/tetris_mobile_app/pubspec.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/tetris_mobile_app/pubspec.yaml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/tetris_mobile_app/pubspec.yaml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Dart File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1pjR1kwcqJYdYyUeive1t10NLhj\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"android.sdk.path\" value=\"$PROJECT_DIR$/../AppData/Local/Android/Sdk\" />\r\n    <property name=\"dart.analysis.tool.window.visible\" value=\"false\" />\r\n    <property name=\"io.flutter.reload.alreadyRun\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.17\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"run.code.analysis.last.selected.profile\" value=\"pProject Default\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"flutter.settings\" />\r\n    <property name=\"show.migrate.to.gradle.popup\" value=\"false\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\user\\flutter_project\\tetris_mobile_app\\lib\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"main.dart\" type=\"FlutterRunConfigurationType\" factoryName=\"Flutter\" editBeforeRun=\"true\">\r\n      <option name=\"filePath\" value=\"$PROJECT_DIR$/tetris_mobile_app/lib/main.dart\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c8a4172a-fff1-415f-b90c-fa251b1bad96\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1615694299544</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1615694299544</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"環境構築一発目\">\r\n      <created>1615695955912</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1615695955912</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"game.dart 　&#10;不具合がある状態で一旦コミット。109行目　drawBlocksメソッド付近&#10;---------------------&#10;subBlocksにPositionedの要素を入れて表示されると、ブロックが表示されない不具合改修（だだ配列に詰めないでブロックを表示するとちゃんと表示される）。これが本当に原因なのか特定も必要。\">\r\n      <created>1624774742363</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1624774742363</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"1\">\r\n          <value>\r\n            <State>\r\n              <option name=\"SHOW_ONLY_AFFECTED_CHANGES\" value=\"true\" />\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"HEAD\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                  <entry key=\"structure\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"dir:C:/Users/user/flutter_project/tetris_mobile_app\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n        <entry key=\"2\">\r\n          <value>\r\n            <State>\r\n              <option name=\"SHOW_ONLY_AFFECTED_CHANGES\" value=\"true\" />\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"HEAD\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                  <entry key=\"roots\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"$PROJECT_DIR$\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"OPEN_GENERIC_TABS\">\r\n      <map>\r\n        <entry key=\"1\" value=\"TOOL_WINDOW\" />\r\n        <entry key=\"2\" value=\"TOOL_WINDOW\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"環境構築一発目\" />\r\n    <MESSAGE value=\"game.dart 　&#10;不具合がある状態で一旦コミット。109行目　drawBlocksメソッド付近&#10;---------------------&#10;subBlocksにPositionedの要素を入れて表示されると、ブロックが表示されない不具合改修（だだ配列に詰めないでブロックを表示するとちゃんと表示される）。これが本当に原因なのか特定も必要。\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"game.dart 　&#10;不具合がある状態で一旦コミット。109行目　drawBlocksメソッド付近&#10;---------------------&#10;subBlocksにPositionedの要素を入れて表示されると、ブロックが表示されない不具合改修（だだ配列に詰めないでブロックを表示するとちゃんと表示される）。これが本当に原因なのか特定も必要。\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"-1203\" y=\"0\" key=\"#Project_Structure\" timestamp=\"1624507945036\">\r\n      <screen x=\"-1366\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"-1203\" y=\"0\" key=\"#Project_Structure/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624507945036\" />\r\n    <state x=\"137\" y=\"38\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1617507891537\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"137\" y=\"38\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1617507891537\" />\r\n    <state x=\"350\" y=\"105\" key=\"#main.dart\" timestamp=\"1625891655595\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"-1016\" y=\"105\" key=\"#main.dart/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624777172324\" />\r\n    <state x=\"376\" y=\"101\" key=\"#main.dart/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624765052397\" />\r\n    <state x=\"350\" y=\"105\" key=\"#main.dart/0.0.1366.768@0.0.1366.768\" timestamp=\"1625891655595\" />\r\n    <state x=\"-949\" y=\"238\" key=\"ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1\" timestamp=\"1624507897491\">\r\n      <screen x=\"-1366\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"-949\" y=\"238\" key=\"ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624507897491\" />\r\n    <state x=\"100\" y=\"100\" width=\"1166\" height=\"568\" key=\"AVDManager\" timestamp=\"1625890923985\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"-1266\" y=\"100\" width=\"1166\" height=\"568\" key=\"AVDManager/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624777248447\" />\r\n    <state x=\"-1266\" y=\"100\" width=\"1166\" height=\"568\" key=\"AVDManager/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1617777770078\" />\r\n    <state x=\"100\" y=\"100\" width=\"1166\" height=\"568\" key=\"AVDManager/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618561035210\" />\r\n    <state x=\"100\" y=\"100\" width=\"1166\" height=\"568\" key=\"AVDManager/0.0.1366.768@0.0.1366.768\" timestamp=\"1625890923985\" />\r\n    <state x=\"509\" y=\"137\" key=\"AndroidProcessChooserDialog\" timestamp=\"1624594943023\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"509\" y=\"137\" key=\"AndroidProcessChooserDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624594943023\" />\r\n    <state x=\"509\" y=\"137\" key=\"AndroidProcessChooserDialog/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618552727664\" />\r\n    <state width=\"401\" height=\"438\" key=\"DebuggerActiveHint\" timestamp=\"1618552999689\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"401\" height=\"438\" key=\"DebuggerActiveHint/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618552999689\" />\r\n    <state x=\"487\" y=\"167\" key=\"FileChooserDialogImpl\" timestamp=\"1623131031383\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"487\" y=\"167\" key=\"FileChooserDialogImpl/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1623131031383\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1625895928335\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"874\" height=\"275\" key=\"GridCell.Tab.0.bottom/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624777190058\" />\r\n    <state width=\"874\" height=\"93\" key=\"GridCell.Tab.0.bottom/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624936943420\" />\r\n    <state width=\"653\" height=\"189\" key=\"GridCell.Tab.0.bottom/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618553075532\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768\" timestamp=\"1625895928335\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.0.center\" timestamp=\"1625895928334\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"874\" height=\"275\" key=\"GridCell.Tab.0.center/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624777190057\" />\r\n    <state width=\"874\" height=\"93\" key=\"GridCell.Tab.0.center/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624936943420\" />\r\n    <state width=\"653\" height=\"189\" key=\"GridCell.Tab.0.center/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618553075531\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768\" timestamp=\"1625895928334\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.0.left\" timestamp=\"1625895928334\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"874\" height=\"275\" key=\"GridCell.Tab.0.left/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624777190057\" />\r\n    <state width=\"874\" height=\"93\" key=\"GridCell.Tab.0.left/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624936943420\" />\r\n    <state width=\"653\" height=\"189\" key=\"GridCell.Tab.0.left/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618553075531\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768\" timestamp=\"1625895928334\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.0.right\" timestamp=\"1625895928335\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"874\" height=\"275\" key=\"GridCell.Tab.0.right/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624777190057\" />\r\n    <state width=\"874\" height=\"93\" key=\"GridCell.Tab.0.right/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624936943420\" />\r\n    <state width=\"653\" height=\"189\" key=\"GridCell.Tab.0.right/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618553075532\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768\" timestamp=\"1625895928335\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1625895928335\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"875\" height=\"275\" key=\"GridCell.Tab.1.bottom/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624769928299\" />\r\n    <state width=\"874\" height=\"93\" key=\"GridCell.Tab.1.bottom/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624936943420\" />\r\n    <state width=\"653\" height=\"189\" key=\"GridCell.Tab.1.bottom/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618553075532\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768\" timestamp=\"1625895928335\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.1.center\" timestamp=\"1625895928335\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"875\" height=\"275\" key=\"GridCell.Tab.1.center/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624769928299\" />\r\n    <state width=\"874\" height=\"93\" key=\"GridCell.Tab.1.center/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624936943420\" />\r\n    <state width=\"653\" height=\"189\" key=\"GridCell.Tab.1.center/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618553075532\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768\" timestamp=\"1625895928335\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.1.left\" timestamp=\"1625895928335\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"875\" height=\"275\" key=\"GridCell.Tab.1.left/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624769928299\" />\r\n    <state width=\"874\" height=\"93\" key=\"GridCell.Tab.1.left/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624936943420\" />\r\n    <state width=\"653\" height=\"189\" key=\"GridCell.Tab.1.left/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618553075532\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768\" timestamp=\"1625895928335\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.1.right\" timestamp=\"1625895928335\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"875\" height=\"275\" key=\"GridCell.Tab.1.right/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624769928299\" />\r\n    <state width=\"874\" height=\"93\" key=\"GridCell.Tab.1.right/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624936943420\" />\r\n    <state width=\"653\" height=\"189\" key=\"GridCell.Tab.1.right/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618553075532\" />\r\n    <state width=\"873\" height=\"289\" key=\"GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768\" timestamp=\"1625895928335\" />\r\n    <state x=\"263\" y=\"133\" key=\"IDE.errors.dialog\" timestamp=\"1618201428318\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"263\" y=\"133\" key=\"IDE.errors.dialog/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618201428318\" />\r\n    <state x=\"475\" y=\"86\" key=\"RollbackChangesDialog\" timestamp=\"1624593507863\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"475\" y=\"86\" key=\"RollbackChangesDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624593507863\" />\r\n    <state x=\"216\" y=\"57\" key=\"SettingsEditor\" timestamp=\"1625890421209\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"216\" y=\"57\" key=\"SettingsEditor/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1617513464554\" />\r\n    <state x=\"216\" y=\"57\" key=\"SettingsEditor/0.0.1366.768@0.0.1366.768\" timestamp=\"1625890421209\" />\r\n    <state x=\"275\" y=\"116\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1624774778247\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"275\" y=\"116\" key=\"Vcs.Push.Dialog.v2/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624774778247\" />\r\n    <state x=\"-1274\" y=\"92\" width=\"1182\" height=\"584\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog\" timestamp=\"1624601921540\">\r\n      <screen x=\"-1366\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"-1274\" y=\"92\" width=\"1182\" height=\"584\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1624601921540\" />\r\n    <state x=\"92\" y=\"92\" width=\"1182\" height=\"584\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624594059838\" />\r\n    <state x=\"-991\" y=\"172\" key=\"git4idea.merge.GitPullDialog\" timestamp=\"1617507482227\">\r\n      <screen x=\"-1366\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"-991\" y=\"172\" key=\"git4idea.merge.GitPullDialog/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768\" timestamp=\"1617507482227\" />\r\n    <state x=\"339\" y=\"172\" key=\"run.anything.popup\" timestamp=\"1625890810441\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"339\" y=\"172\" key=\"run.anything.popup/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1617513276250\" />\r\n    <state x=\"339\" y=\"172\" key=\"run.anything.popup/0.0.1366.768/0.-720.1280.720@0.0.1366.768\" timestamp=\"1618554510360\" />\r\n    <state x=\"339\" y=\"172\" key=\"run.anything.popup/0.0.1366.768@0.0.1366.768\" timestamp=\"1625890810441\" />\r\n    <state x=\"346\" y=\"89\" width=\"670\" height=\"58\" key=\"search.everywhere.popup\" timestamp=\"1624777743029\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"346\" y=\"89\" width=\"670\" height=\"58\" key=\"search.everywhere.popup/0.0.1366.768/-1366.0.1366.768@0.0.1366.768\" timestamp=\"1624777743029\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <watches-manager>\r\n      <configuration name=\"FlutterRunConfigurationType\">\r\n        <watch expression=\"subBlocks\" />\r\n      </configuration>\r\n    </watches-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(リビジョン d0ad7a9ca83b45087502f639387e43efb1bd6dea)
++++ .idea/workspace.xml	(date 1628594135423)
+@@ -19,14 +19,11 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c8a4172a-fff1-415f-b90c-fa251b1bad96" name="Default Changelist" comment="game.dart 　&#10;不具合がある状態で一旦コミット。109行目　drawBlocksメソッド付近&#10;---------------------&#10;subBlocksにPositionedの要素を入れて表示されると、ブロックが表示されない不具合改修（だだ配列に詰めないでブロックを表示するとちゃんと表示される）。これが本当に原因なのか特定も必要。">
+-      <change beforePath="$PROJECT_DIR$/.idea/flutter_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter_project.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
++    <list default="true" id="c8a4172a-fff1-415f-b90c-fa251b1bad96" name="Default Changelist" comment="2021/07/11 設定ファイルも含めすべてコミット">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/tetris_mobile_app/lib/game.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/game.dart" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/pubspec.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/pubspec.yaml" afterDir="false" />
+     </list>
++    <list id="ee1894b6-ae84-4332-b215-3dfb1861b059" name="Revert &quot;2021/07/11 設定ファイルも含めすべてコミット&quot;" comment="Revert &quot;2021/07/11 設定ファイルも含めすべてコミット&quot;&#10;&#10;This reverts commit e992dfec" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -41,6 +38,7 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="RESET_MODE" value="MIXED" />
+   </component>
+   <component name="ProjectId" id="1pjR1kwcqJYdYyUeive1t10NLhj" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+@@ -59,7 +57,7 @@
+     <property name="project.structure.proportion" value="0.17" />
+     <property name="project.structure.side.proportion" value="0.0" />
+     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+-    <property name="settings.editor.selected.configurable" value="flutter.settings" />
++    <property name="settings.editor.selected.configurable" value="dart.settings" />
+     <property name="show.migrate.to.gradle.popup" value="false" />
+   </component>
+   <component name="RecentsManager">
+@@ -98,8 +96,39 @@
+       <option name="project" value="LOCAL" />
+       <updated>1624774742363</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="2021/07/11 設定ファイルも含めすべてコミット">
++      <created>1626002253813</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1626002253813</updated>
++    </task>
++    <task id="LOCAL-00004" summary="2021/07/11 設定ファイルも含めすべてコミット">
++      <created>1626003741221</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1626003741221</updated>
++    </task>
++    <task id="LOCAL-00005" summary="2021/07/11 設定ファイルも含めすべてコミット">
++      <created>1628593256014</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1628593256014</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
++  </component>
++  <component name="Vcs.Log.History.Properties">
++    <option name="COLUMN_ORDER">
++      <list>
++        <option value="0" />
++        <option value="2" />
++        <option value="3" />
++        <option value="1" />
++      </list>
++    </option>
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+@@ -156,7 +185,19 @@
+         </entry>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/master" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+@@ -172,139 +213,145 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="環境構築一発目" />
+     <MESSAGE value="game.dart 　&#10;不具合がある状態で一旦コミット。109行目　drawBlocksメソッド付近&#10;---------------------&#10;subBlocksにPositionedの要素を入れて表示されると、ブロックが表示されない不具合改修（だだ配列に詰めないでブロックを表示するとちゃんと表示される）。これが本当に原因なのか特定も必要。" />
+-    <option name="LAST_COMMIT_MESSAGE" value="game.dart 　&#10;不具合がある状態で一旦コミット。109行目　drawBlocksメソッド付近&#10;---------------------&#10;subBlocksにPositionedの要素を入れて表示されると、ブロックが表示されない不具合改修（だだ配列に詰めないでブロックを表示するとちゃんと表示される）。これが本当に原因なのか特定も必要。" />
++    <MESSAGE value="2021/07/11 設定ファイルも含めすべてコミット" />
++    <MESSAGE value="Revert &quot;2021/07/11 設定ファイルも含めすべてコミット&quot;&#10;&#10;This reverts commit e992dfec" />
++    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;2021/07/11 設定ファイルも含めすべてコミット&quot;&#10;&#10;This reverts commit e992dfec" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="-1203" y="0" key="#Project_Structure" timestamp="1624507945036">
+       <screen x="-1366" y="0" width="1366" height="768" />
+     </state>
+     <state x="-1203" y="0" key="#Project_Structure/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624507945036" />
+-    <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617507891537">
+-      <screen x="0" y="0" width="1366" height="768" />
+-    </state>
+-    <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1617507891537" />
+-    <state x="350" y="105" key="#main.dart" timestamp="1625891655595">
+-      <screen x="0" y="0" width="1366" height="768" />
++    <state x="-1016" y="105" key="#main.dart" timestamp="1628594087872">
++      <screen x="-1366" y="0" width="1366" height="768" />
+     </state>
+-    <state x="-1016" y="105" key="#main.dart/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624777172324" />
+-    <state x="376" y="101" key="#main.dart/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624765052397" />
++    <state x="-1016" y="105" key="#main.dart/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1628594087872" />
++    <state x="376" y="101" key="#main.dart/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628591362657" />
+     <state x="350" y="105" key="#main.dart/0.0.1366.768@0.0.1366.768" timestamp="1625891655595" />
+     <state x="-949" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1624507897491">
+       <screen x="-1366" y="0" width="1366" height="768" />
+     </state>
+     <state x="-949" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624507897491" />
+-    <state x="100" y="100" width="1166" height="568" key="AVDManager" timestamp="1625890923985">
+-      <screen x="0" y="0" width="1366" height="768" />
++    <state x="-1266" y="100" width="1166" height="568" key="AVDManager" timestamp="1628594135326">
++      <screen x="-1366" y="0" width="1366" height="768" />
+     </state>
+-    <state x="-1266" y="100" width="1166" height="568" key="AVDManager/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624777248447" />
+-    <state x="-1266" y="100" width="1166" height="568" key="AVDManager/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1617777770078" />
+-    <state x="100" y="100" width="1166" height="568" key="AVDManager/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618561035210" />
++    <state x="-1266" y="100" width="1166" height="568" key="AVDManager/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1628594135326" />
++    <state x="100" y="100" width="1166" height="568" key="AVDManager/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628591159470" />
+     <state x="100" y="100" width="1166" height="568" key="AVDManager/0.0.1366.768@0.0.1366.768" timestamp="1625890923985" />
+-    <state x="509" y="137" key="AndroidProcessChooserDialog" timestamp="1624594943023">
+-      <screen x="0" y="0" width="1366" height="768" />
++    <state x="-857" y="137" key="AndroidProcessChooserDialog" timestamp="1627196553508">
++      <screen x="-1366" y="0" width="1366" height="768" />
+     </state>
++    <state x="-857" y="137" key="AndroidProcessChooserDialog/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1627196553508" />
+     <state x="509" y="137" key="AndroidProcessChooserDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624594943023" />
+-    <state x="509" y="137" key="AndroidProcessChooserDialog/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618552727664" />
+-    <state width="401" height="438" key="DebuggerActiveHint" timestamp="1618552999689">
++    <state x="256" y="0" key="CommitChangelistDialog2" timestamp="1628593371948">
++      <screen x="0" y="0" width="1366" height="768" />
++    </state>
++    <state x="256" y="0" key="CommitChangelistDialog2/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628593371948" />
++    <state x="92" y="92" width="1182" height="584" key="DiffContextDialog" timestamp="1628593634789">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+-    <state width="401" height="438" key="DebuggerActiveHint/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618552999689" />
++    <state x="-1274" y="92" width="1182" height="584" key="DiffContextDialog/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1627176685139" />
++    <state x="92" y="92" width="1182" height="584" key="DiffContextDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628593634789" />
++    <state x="92" y="92" width="1182" height="584" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1626004511218" />
+     <state x="487" y="167" key="FileChooserDialogImpl" timestamp="1623131031383">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+     <state x="487" y="167" key="FileChooserDialogImpl/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1623131031383" />
+-    <state width="873" height="289" key="GridCell.Tab.0.bottom" timestamp="1625895928335">
++    <state x="508" y="285" key="Github.CreateGistDialog" timestamp="1628593835159">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+-    <state width="874" height="275" key="GridCell.Tab.0.bottom/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624777190058" />
+-    <state width="874" height="93" key="GridCell.Tab.0.bottom/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624936943420" />
+-    <state width="653" height="189" key="GridCell.Tab.0.bottom/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618553075532" />
++    <state x="508" y="285" key="Github.CreateGistDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628593835159" />
++    <state width="857" height="284" key="GridCell.Tab.0.bottom" timestamp="1628594104421">
++      <screen x="-1366" y="0" width="1366" height="768" />
++    </state>
++    <state width="857" height="284" key="GridCell.Tab.0.bottom/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1628594104421" />
++    <state width="869" height="288" key="GridCell.Tab.0.bottom/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628594008812" />
+     <state width="873" height="289" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1625895928335" />
+-    <state width="873" height="289" key="GridCell.Tab.0.center" timestamp="1625895928334">
+-      <screen x="0" y="0" width="1366" height="768" />
++    <state width="857" height="284" key="GridCell.Tab.0.center" timestamp="1628594104421">
++      <screen x="-1366" y="0" width="1366" height="768" />
+     </state>
+-    <state width="874" height="275" key="GridCell.Tab.0.center/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624777190057" />
+-    <state width="874" height="93" key="GridCell.Tab.0.center/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624936943420" />
+-    <state width="653" height="189" key="GridCell.Tab.0.center/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618553075531" />
++    <state width="857" height="284" key="GridCell.Tab.0.center/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1628594104421" />
++    <state width="869" height="288" key="GridCell.Tab.0.center/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628594008812" />
+     <state width="873" height="289" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1625895928334" />
+-    <state width="873" height="289" key="GridCell.Tab.0.left" timestamp="1625895928334">
+-      <screen x="0" y="0" width="1366" height="768" />
++    <state width="857" height="284" key="GridCell.Tab.0.left" timestamp="1628594104420">
++      <screen x="-1366" y="0" width="1366" height="768" />
+     </state>
+-    <state width="874" height="275" key="GridCell.Tab.0.left/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624777190057" />
+-    <state width="874" height="93" key="GridCell.Tab.0.left/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624936943420" />
+-    <state width="653" height="189" key="GridCell.Tab.0.left/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618553075531" />
++    <state width="857" height="284" key="GridCell.Tab.0.left/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1628594104420" />
++    <state width="869" height="288" key="GridCell.Tab.0.left/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628594008811" />
+     <state width="873" height="289" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1625895928334" />
+-    <state width="873" height="289" key="GridCell.Tab.0.right" timestamp="1625895928335">
+-      <screen x="0" y="0" width="1366" height="768" />
++    <state width="857" height="284" key="GridCell.Tab.0.right" timestamp="1628594104421">
++      <screen x="-1366" y="0" width="1366" height="768" />
+     </state>
+-    <state width="874" height="275" key="GridCell.Tab.0.right/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624777190057" />
+-    <state width="874" height="93" key="GridCell.Tab.0.right/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624936943420" />
+-    <state width="653" height="189" key="GridCell.Tab.0.right/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618553075532" />
++    <state width="857" height="284" key="GridCell.Tab.0.right/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1628594104421" />
++    <state width="869" height="288" key="GridCell.Tab.0.right/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628594008812" />
+     <state width="873" height="289" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1625895928335" />
+-    <state width="873" height="289" key="GridCell.Tab.1.bottom" timestamp="1625895928335">
++    <state width="869" height="288" key="GridCell.Tab.1.bottom" timestamp="1628594008812">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+-    <state width="875" height="275" key="GridCell.Tab.1.bottom/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624769928299" />
+-    <state width="874" height="93" key="GridCell.Tab.1.bottom/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624936943420" />
+-    <state width="653" height="189" key="GridCell.Tab.1.bottom/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618553075532" />
++    <state width="860" height="285" key="GridCell.Tab.1.bottom/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1627197192192" />
++    <state width="869" height="288" key="GridCell.Tab.1.bottom/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628594008812" />
+     <state width="873" height="289" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1625895928335" />
+-    <state width="873" height="289" key="GridCell.Tab.1.center" timestamp="1625895928335">
++    <state width="869" height="288" key="GridCell.Tab.1.center" timestamp="1628594008812">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+-    <state width="875" height="275" key="GridCell.Tab.1.center/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624769928299" />
+-    <state width="874" height="93" key="GridCell.Tab.1.center/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624936943420" />
+-    <state width="653" height="189" key="GridCell.Tab.1.center/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618553075532" />
++    <state width="860" height="285" key="GridCell.Tab.1.center/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1627197192192" />
++    <state width="869" height="288" key="GridCell.Tab.1.center/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628594008812" />
+     <state width="873" height="289" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1625895928335" />
+-    <state width="873" height="289" key="GridCell.Tab.1.left" timestamp="1625895928335">
++    <state width="869" height="288" key="GridCell.Tab.1.left" timestamp="1628594008812">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+-    <state width="875" height="275" key="GridCell.Tab.1.left/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624769928299" />
+-    <state width="874" height="93" key="GridCell.Tab.1.left/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624936943420" />
+-    <state width="653" height="189" key="GridCell.Tab.1.left/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618553075532" />
++    <state width="860" height="285" key="GridCell.Tab.1.left/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1627197192192" />
++    <state width="869" height="288" key="GridCell.Tab.1.left/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628594008812" />
+     <state width="873" height="289" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1625895928335" />
+-    <state width="873" height="289" key="GridCell.Tab.1.right" timestamp="1625895928335">
++    <state width="869" height="288" key="GridCell.Tab.1.right" timestamp="1628594008812">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+-    <state width="875" height="275" key="GridCell.Tab.1.right/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624769928299" />
+-    <state width="874" height="93" key="GridCell.Tab.1.right/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624936943420" />
+-    <state width="653" height="189" key="GridCell.Tab.1.right/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618553075532" />
++    <state width="860" height="285" key="GridCell.Tab.1.right/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1627197192192" />
++    <state width="869" height="288" key="GridCell.Tab.1.right/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628594008812" />
+     <state width="873" height="289" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1625895928335" />
+-    <state x="263" y="133" key="IDE.errors.dialog" timestamp="1618201428318">
++    <state x="-1103" y="126" key="IDE.errors.dialog" timestamp="1627196512257">
++      <screen x="-1366" y="0" width="1366" height="768" />
++    </state>
++    <state x="-1103" y="126" key="IDE.errors.dialog/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1627196512257" />
++    <state x="129" y="59" key="MergeDialog" timestamp="1626003530468">
++      <screen x="0" y="0" width="1366" height="768" />
++    </state>
++    <state x="129" y="59" key="MergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1626003530468" />
++    <state x="321" y="145" key="MultipleFileMergeDialog" timestamp="1626003532673">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+-    <state x="263" y="133" key="IDE.errors.dialog/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618201428318" />
+-    <state x="475" y="86" key="RollbackChangesDialog" timestamp="1624593507863">
++    <state x="321" y="145" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1626003532673" />
++    <state x="475" y="86" key="RollbackChangesDialog" timestamp="1628593319107">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+-    <state x="475" y="86" key="RollbackChangesDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624593507863" />
+-    <state x="216" y="57" key="SettingsEditor" timestamp="1625890421209">
++    <state x="475" y="86" key="RollbackChangesDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628593319107" />
++    <state x="216" y="57" key="SettingsEditor" timestamp="1626005315558">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+-    <state x="216" y="57" key="SettingsEditor/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1617513464554" />
+-    <state x="216" y="57" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1625890421209" />
+-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1624774778247">
++    <state x="216" y="57" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1626005315558" />
++    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1628593260968">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624774778247" />
++    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628593260968" />
++    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1626003759703" />
+     <state x="-1274" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1624601921540">
+       <screen x="-1366" y="0" width="1366" height="768" />
+     </state>
+     <state x="-1274" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1624601921540" />
+     <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624594059838" />
+-    <state x="-991" y="172" key="git4idea.merge.GitPullDialog" timestamp="1617507482227">
+-      <screen x="-1366" y="0" width="1366" height="768" />
++    <state x="375" y="172" key="git4idea.merge.GitPullDialog" timestamp="1626003812610">
++      <screen x="0" y="0" width="1366" height="768" />
+     </state>
+-    <state x="-991" y="172" key="git4idea.merge.GitPullDialog/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1617507482227" />
+-    <state x="339" y="172" key="run.anything.popup" timestamp="1625890810441">
+-      <screen x="0" y="0" width="1366" height="768" />
++    <state x="375" y="172" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1626003812610" />
++    <state x="-1027" y="172" key="run.anything.popup" timestamp="1627197136169">
++      <screen x="-1366" y="0" width="1366" height="768" />
+     </state>
+-    <state x="339" y="172" key="run.anything.popup/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1617513276250" />
+-    <state x="339" y="172" key="run.anything.popup/0.0.1366.768/0.-720.1280.720@0.0.1366.768" timestamp="1618554510360" />
++    <state x="-1027" y="172" key="run.anything.popup/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1627197136169" />
+     <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1625890810441" />
+-    <state x="346" y="89" width="670" height="58" key="search.everywhere.popup" timestamp="1624777743029">
++    <state x="346" y="89" width="672" height="160" key="search.everywhere.popup" timestamp="1628592025525">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+-    <state x="346" y="89" width="670" height="58" key="search.everywhere.popup/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1624777743029" />
++    <state x="346" y="89" width="672" height="160" key="search.everywhere.popup/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1628592025525" />
+   </component>
+   <component name="XDebuggerManager">
+     <watches-manager>
