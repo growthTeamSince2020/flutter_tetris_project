@@ -11,11 +11,11 @@ class top extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
             children: <Widget>[
-          Image(
-            width: 200,
-            image:AssetImage("images/karititle.png"),
-          color: Color(0xFF3A5A98),
-        ),
+        //   Image(
+        //     width: 200,
+        //     image:AssetImage("images/karititle.png"),
+        //   color: Color(0xFF3A5A98),
+        // ),
               ElevatedButton(
                 // 立体的なボタン
                 onPressed: () =>
