@@ -6,39 +6,17 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a4172a-fff1-415f-b90c-fa251b1bad96" name="Default Changelist" comment="テトリス チーム開発用リポジトリ_20211010&#10;・開発用ディレクトリの追加&#10;・トップ画面追加(singlePlay以外はボタン設定なし)&#10;・テトリスのdomain(ロジック)側とview側に切り分け（view/singlePlay.dart）&#10;・view/singlePlay.dartにトップへ戻る処理を追加&#10;・main.dartをルーティング専用で切り分け&#10;など">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_08_10_20_21_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_08_10_20_21_[Default_Changelist]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_08_10_20_21__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tetris_mobile_app/assets/images/karititle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/domain/state/tetrisData.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/view/singlePlay.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/view/top.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/lib/block.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/domain/service/common/tetrisLogic/block.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/lib/game.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/domain/service/singlePlay/game.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/lib/next_block.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/domain/service/common/tetrisLogic/next_block.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/lib/score_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/domain/service/common/tetrisLogic/score_bar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/lib/sub_block.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/domain/service/common/tetrisLogic/sub_block.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/test/widget_test.dart" afterDir="false" />
-    </list>
+    <list default="true" id="c8a4172a-fff1-415f-b90c-fa251b1bad96" name="Default Changelist" comment="テトリス チーム開発用リポジトリ_20211010　&#10;・新リポジトリ作成（チーム開発用リポジトリ）&#10;https://github.com/growthTeamSince2020/flutter_tetris_project.git&#10;・開発用ディレクトリの追加&#10;・トップ画面追加(singlePlay以外はボタン設定なし)&#10;・テトリスのdomain(ロジック)側とview側に切り分け（view/singlePlay.dart）&#10;・view/singlePlay.dartにトップへ戻る処理を追加&#10;・main.dartをルーティング専用で切り分け&#10;・新リポジトリにコミット&#10;など" />
     <list id="ee1894b6-ae84-4332-b215-3dfb1861b059" name="Revert &quot;2021/07/11 設定ファイルも含めすべてコミット&quot;" comment="Revert &quot;2021/07/11 設定ファイルも含めすべてコミット&quot;&#10;&#10;This reverts commit e992dfec" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632552606160</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="テトリス チーム開発用リポジトリ_20211010　&#10;・新リポジトリ作成（チーム開発用リポジトリ）&#10;https://github.com/growthTeamSince2020/flutter_tetris_project.git&#10;・開発用ディレクトリの追加&#10;・トップ画面追加(singlePlay以外はボタン設定なし)&#10;・テトリスのdomain(ロジック)側とview側に切り分け（view/singlePlay.dart）&#10;・view/singlePlay.dartにトップへ戻る処理を追加&#10;・main.dartをルーティング専用で切り分け&#10;・新リポジトリにコミット&#10;など">
+      <created>1633856573391</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633856573391</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +201,24 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -232,7 +234,8 @@
     <MESSAGE value="要件定義_基盤になる製造テトリス&#10;・endボタンをretryボタンに変更（シングルプレイでは残す方向で検討）&#10;・ブロック消し処理を追加&#10;・次のブロック表示処理を追加&#10;・ゲームオーバー処理を追加&#10;・以下に音を追加処理を追加&#10;　・背景音楽（ループ）　startボタンで音開始、retryボタンで音終了&#10;　・操作&#10;　・ブロック消し&#10;　・ゲームオーバー&#10;・音楽素材を追加" />
     <MESSAGE value="テトリス チーム開発用リポジトリ_20211010&#10;・開発用ディレクトリの追加&#10;・トップ画面追加&#10;・main.dartをルーティング専用で切り分け&#10;・テトリスのdomain(ロジック)側とview側に切り分け&#10;など" />
     <MESSAGE value="テトリス チーム開発用リポジトリ_20211010&#10;・開発用ディレクトリの追加&#10;・トップ画面追加(singlePlay以外はボタン設定なし)&#10;・テトリスのdomain(ロジック)側とview側に切り分け（view/singlePlay.dart）&#10;・view/singlePlay.dartにトップへ戻る処理を追加&#10;・main.dartをルーティング専用で切り分け&#10;など" />
-    <option name="LAST_COMMIT_MESSAGE" value="テトリス チーム開発用リポジトリ_20211010&#10;・開発用ディレクトリの追加&#10;・トップ画面追加(singlePlay以外はボタン設定なし)&#10;・テトリスのdomain(ロジック)側とview側に切り分け（view/singlePlay.dart）&#10;・view/singlePlay.dartにトップへ戻る処理を追加&#10;・main.dartをルーティング専用で切り分け&#10;など" />
+    <MESSAGE value="テトリス チーム開発用リポジトリ_20211010　&#10;・新リポジトリ作成（チーム開発用リポジトリ）&#10;https://github.com/growthTeamSince2020/flutter_tetris_project.git&#10;・開発用ディレクトリの追加&#10;・トップ画面追加(singlePlay以外はボタン設定なし)&#10;・テトリスのdomain(ロジック)側とview側に切り分け（view/singlePlay.dart）&#10;・view/singlePlay.dartにトップへ戻る処理を追加&#10;・main.dartをルーティング専用で切り分け&#10;・新リポジトリにコミット&#10;など" />
+    <option name="LAST_COMMIT_MESSAGE" value="テトリス チーム開発用リポジトリ_20211010　&#10;・新リポジトリ作成（チーム開発用リポジトリ）&#10;https://github.com/growthTeamSince2020/flutter_tetris_project.git&#10;・開発用ディレクトリの追加&#10;・トップ画面追加(singlePlay以外はボタン設定なし)&#10;・テトリスのdomain(ロジック)側とview側に切り分け（view/singlePlay.dart）&#10;・view/singlePlay.dartにトップへ戻る処理を追加&#10;・main.dartをルーティング専用で切り分け&#10;・新リポジトリにコミット&#10;など" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1010" y="76" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1632542964649">
