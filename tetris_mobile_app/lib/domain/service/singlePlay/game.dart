@@ -175,7 +175,7 @@ class GameState extends State<Game>{
 
   // スコアカウンター
   void updateScore(){
-    var combo = 9; //点数
+    var combo = 0; //点数
     Map<int,int> rows = Map(); // 行番と行のブロック数の保持
     List<int> rowsToBeRemoved = [];
 

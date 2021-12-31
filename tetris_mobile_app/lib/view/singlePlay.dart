@@ -83,7 +83,7 @@ class _TetrisState extends State {
                               //RaisedButtonが非推奨なのでElevatedButton
                               child: Text(
                                 Provider.of<Data>(context).isPlaying
-                                    ? 'Retry'
+                                    ? 'retry'
                                     : 'Start',
                                 style: TextStyle(
                                   fontSize: 18,
