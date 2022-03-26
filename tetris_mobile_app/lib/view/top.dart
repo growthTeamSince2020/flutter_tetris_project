@@ -10,7 +10,7 @@ class top extends StatelessWidget {
         image: DecorationImage(image: AssetImage('assets/images/white_wood.jpg'),fit: BoxFit.fill,)
       ),
         child: Center(
-          
+
           child: Column(
             mainAxisAlignment: MainAxisAlignment.end,
 
@@ -39,7 +39,7 @@ class top extends StatelessWidget {
               ElevatedButton(
                 // 立体的なボタン
                 onPressed: () =>
-                    Navigator.of(context).pushNamed("/"), // 次の画面を乗せる
+                    Navigator.of(context).pushNamed("/login"), // 次の画面を乗せる
                 style: ElevatedButton.styleFrom(
                   primary: Colors.transparent,
                   elevation: 0,

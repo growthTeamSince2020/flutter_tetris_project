@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/services.dart';
+import 'package:tetris_mobile_app/view/login.dart';
 import 'package:tetris_mobile_app/view/singlePlay.dart';
 import 'package:tetris_mobile_app/view/top.dart';
 import '../domain/state/tetrisData.dart';
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
       home: top(),
       routes: <String, WidgetBuilder>{
         '/top': (BuildContext context) => top(), // 最初のページ
-        '/singlePlay': (BuildContext context) => singlePlay() // 次のページ
+        '/singlePlay': (BuildContext context) => singlePlay(), // 次のページ
+        '/login': (BuildContext context) => login() // ログインのページ
       }
     );
   }

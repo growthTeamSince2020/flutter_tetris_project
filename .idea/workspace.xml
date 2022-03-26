@@ -3,6 +3,9 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="3" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -30,14 +33,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8a4172a-fff1-415f-b90c-fa251b1bad96" name="Default Changelist" comment="テトリス チーム開発用リポジトリ_20211010　&#10;・開発フォルダ追加&#10;https://github.com/growthTeamSince2020/flutter_tetris_project.git&#10;など">
-      <change afterPath="$PROJECT_DIR$/tetris_mobile_app/assets/images/title_tetris.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tetris_mobile_app/assets/images/white wood texture 0210.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tetris_mobile_app/assets/images/white_wood.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tetris_mobile_app/assets/images/white_wood_old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tetris_mobile_app/ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tetris_mobile_app/ios/Podfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/view/login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flutter_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tetris_mobile_app/lib/domain/service/singlePlay/game.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/domain/service/singlePlay/game.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/lib/view/singlePlay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/view/singlePlay.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tetris_mobile_app/lib/view/top.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/lib/view/top.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tetris_mobile_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tetris_mobile_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_mobile_app/pubspec.yaml" afterDir="false" />
     </list>
     <list id="ee1894b6-ae84-4332-b215-3dfb1861b059" name="Revert &quot;2021/07/11 設定ファイルも含めすべてコミット&quot;" comment="Revert &quot;2021/07/11 設定ファイルも含めすべてコミット&quot;&#10;&#10;This reverts commit e992dfec" />
@@ -46,7 +60,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -56,6 +69,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/tetris_mobile_app/.packages" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tetris_mobile_app/lib/view/top.dart" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tetris_mobile_app/lib/view/singlePlay.dart" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tetris_mobile_app/pubspec.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tetris_mobile_app/android/settings.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tetris_mobile_app/pubspec.lock" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tetris_mobile_app/test/widget_test.dart" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1pjR1kwcqJYdYyUeive1t10NLhj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -69,16 +91,20 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowGit.ShowToolbar" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../AppData/Local/Android/Sdk" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tetris_mobile_app/lib/view" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -110,6 +136,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -243,11 +270,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -279,160 +301,6 @@
     <MESSAGE value="テトリス チーム開発用リポジトリ_20211010　&#10;・新リポジトリ作成（チーム開発用リポジトリ）&#10;https://github.com/growthTeamSince2020/flutter_tetris_project.git&#10;・開発用ディレクトリの追加&#10;・トップ画面追加(singlePlay以外はボタン設定なし)&#10;・テトリスのdomain(ロジック)側とview側に切り分け（view/singlePlay.dart）&#10;・view/singlePlay.dartにトップへ戻る処理を追加&#10;・main.dartをルーティング専用で切り分け&#10;・新リポジトリにコミット&#10;など" />
     <MESSAGE value="テトリス チーム開発用リポジトリ_20211010　&#10;・開発フォルダ追加&#10;https://github.com/growthTeamSince2020/flutter_tetris_project.git&#10;など" />
     <option name="LAST_COMMIT_MESSAGE" value="テトリス チーム開発用リポジトリ_20211010　&#10;・開発フォルダ追加&#10;https://github.com/growthTeamSince2020/flutter_tetris_project.git&#10;など" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-3129" y="-195" key="#Project_Structure" timestamp="1633860625761">
-      <screen x="-3538" y="-309" width="1858" height="1080" />
-    </state>
-    <state x="-3129" y="-195" key="#Project_Structure/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633860625761" />
-    <state x="-1010" y="76" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1632542964649">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state x="-1010" y="76" key="#com.intellij.debugger.actions.ViewTextAction/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632542964649" />
-    <state x="-1096" y="23" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632545323755">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state x="-1096" y="23" key="#com.intellij.fileTypes.FileTypeChooser/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632545323755" />
-    <state x="-1250" y="-149" key="#main.dart" timestamp="1633759226046">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state x="-1250" y="-149" key="#main.dart/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633759226046" />
-    <state x="-1250" y="-149" key="#main.dart/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632657124898" />
-    <state x="-3109" y="-166" key="#main.dart/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-3600.-309.1920.1050" timestamp="1632372623793" />
-    <state x="-1147" y="-61" key="#singlePlayView.dart" timestamp="1633760678397">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state x="-1147" y="-61" key="#singlePlayView.dart/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633760678397" />
-    <state x="-1106" y="86" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1633861135184">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state x="-1106" y="86" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633861135184" />
-    <state x="-2903" y="87" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633854851942" />
-    <state x="316" y="159" width="1057" height="586" key="AVDManager" timestamp="1640827377234">
-      <screen x="74" y="0" width="1292" height="768" />
-    </state>
-    <state x="1996" y="446" width="1057" height="586" key="AVDManager/1754.287.1292.768/-1920.-22.1920.1050/74.0.1606.1050@74.0.1606.1050" timestamp="1640821683106" />
-    <state x="439" y="272" width="1057" height="586" key="AVDManager/1754.287.1292.768/74.0.1606.1050/-1920.-22.1920.1050@74.0.1606.1050" timestamp="1640381737132" />
-    <state x="-1298" y="-24" width="1105" height="569" key="AVDManager/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633861355774" />
-    <state x="-3403" y="-168" width="1589" height="800" key="AVDManager/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633860397034" />
-    <state x="-1558" y="-155" width="1436" height="755" key="AVDManager/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632668400569" />
-    <state x="-3461" y="-172" width="1642" height="778" key="AVDManager/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-3600.-309.1920.1050" timestamp="1632373008802" />
-    <state x="-1298" y="-24" width="1105" height="569" key="AVDManager/74.0.1292.768/-3538.-309.1858.1080/-1680.-288.1680.1020@-1680.-288.1680.1020" timestamp="1633862322221" />
-    <state x="316" y="159" width="1057" height="586" key="AVDManager/74.0.1292.768@74.0.1292.768" timestamp="1640827377234" />
-    <state width="468" height="466" key="DebuggerActiveHint" timestamp="1632540570249">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state width="468" height="466" key="DebuggerActiveHint/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632540570249" />
-    <state x="162" y="95" width="1431" height="861" key="DiffContextDialog" timestamp="1640381411014">
-      <screen x="74" y="0" width="1606" height="1050" />
-    </state>
-    <state x="162" y="95" width="1431" height="861" key="DiffContextDialog/1754.287.1292.768/74.0.1606.1050/-1920.-22.1920.1050@74.0.1606.1050" timestamp="1640381411014" />
-    <state x="-1588" y="-196" width="1496" height="836" key="DiffContextDialog/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632552649962" />
-    <state x="-1060" y="-37" key="FileChooserDialogImpl" timestamp="1633830538901">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state x="-1060" y="-37" key="FileChooserDialogImpl/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633830538901" />
-    <state width="1072" height="356" key="GridCell.Tab.0.bottom" timestamp="1633862623112">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state width="1073" height="356" key="GridCell.Tab.0.bottom/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633861355603" />
-    <state width="1815" height="382" key="GridCell.Tab.0.bottom/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633855763214" />
-    <state width="1637" height="410" key="GridCell.Tab.0.bottom/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632668400422" />
-    <state width="1877" height="456" key="GridCell.Tab.0.bottom/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-3600.-309.1920.1050" timestamp="1632380107195" />
-    <state width="1072" height="356" key="GridCell.Tab.0.bottom/74.0.1292.768/-3538.-309.1858.1080/-1680.-288.1680.1020@-1680.-288.1680.1020" timestamp="1633862623112" />
-    <state width="1072" height="356" key="GridCell.Tab.0.center" timestamp="1633862623111">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state width="1073" height="356" key="GridCell.Tab.0.center/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633861355603" />
-    <state width="1815" height="382" key="GridCell.Tab.0.center/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633855763214" />
-    <state width="1637" height="410" key="GridCell.Tab.0.center/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632668400422" />
-    <state width="1877" height="456" key="GridCell.Tab.0.center/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-3600.-309.1920.1050" timestamp="1632380107195" />
-    <state width="1072" height="356" key="GridCell.Tab.0.center/74.0.1292.768/-3538.-309.1858.1080/-1680.-288.1680.1020@-1680.-288.1680.1020" timestamp="1633862623111" />
-    <state width="1072" height="356" key="GridCell.Tab.0.left" timestamp="1633862623111">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state width="1073" height="356" key="GridCell.Tab.0.left/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633861355603" />
-    <state width="1815" height="382" key="GridCell.Tab.0.left/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633855763214" />
-    <state width="1637" height="410" key="GridCell.Tab.0.left/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632668400422" />
-    <state width="1877" height="456" key="GridCell.Tab.0.left/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-3600.-309.1920.1050" timestamp="1632380107195" />
-    <state width="1072" height="356" key="GridCell.Tab.0.left/74.0.1292.768/-3538.-309.1858.1080/-1680.-288.1680.1020@-1680.-288.1680.1020" timestamp="1633862623111" />
-    <state width="1072" height="356" key="GridCell.Tab.0.right" timestamp="1633862623112">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state width="1073" height="356" key="GridCell.Tab.0.right/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633861355603" />
-    <state width="1815" height="382" key="GridCell.Tab.0.right/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633855763214" />
-    <state width="1637" height="410" key="GridCell.Tab.0.right/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632668400422" />
-    <state width="1877" height="456" key="GridCell.Tab.0.right/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-3600.-309.1920.1050" timestamp="1632380107195" />
-    <state width="1072" height="356" key="GridCell.Tab.0.right/74.0.1292.768/-3538.-309.1858.1080/-1680.-288.1680.1020@-1680.-288.1680.1020" timestamp="1633862623112" />
-    <state width="1072" height="356" key="GridCell.Tab.1.bottom" timestamp="1633862522780">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state width="1073" height="356" key="GridCell.Tab.1.bottom/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633861355604" />
-    <state width="1815" height="382" key="GridCell.Tab.1.bottom/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633855763215" />
-    <state width="1637" height="410" key="GridCell.Tab.1.bottom/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632668400423" />
-    <state width="1877" height="456" key="GridCell.Tab.1.bottom/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-3600.-309.1920.1050" timestamp="1632380107196" />
-    <state width="1072" height="356" key="GridCell.Tab.1.bottom/74.0.1292.768/-3538.-309.1858.1080/-1680.-288.1680.1020@-1680.-288.1680.1020" timestamp="1633862522780" />
-    <state width="1072" height="356" key="GridCell.Tab.1.center" timestamp="1633862522779">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state width="1073" height="356" key="GridCell.Tab.1.center/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633861355604" />
-    <state width="1815" height="382" key="GridCell.Tab.1.center/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633855763215" />
-    <state width="1637" height="410" key="GridCell.Tab.1.center/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632668400423" />
-    <state width="1877" height="456" key="GridCell.Tab.1.center/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-3600.-309.1920.1050" timestamp="1632380107196" />
-    <state width="1072" height="356" key="GridCell.Tab.1.center/74.0.1292.768/-3538.-309.1858.1080/-1680.-288.1680.1020@-1680.-288.1680.1020" timestamp="1633862522779" />
-    <state width="1072" height="356" key="GridCell.Tab.1.left" timestamp="1633862522779">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state width="1073" height="356" key="GridCell.Tab.1.left/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633861355604" />
-    <state width="1815" height="382" key="GridCell.Tab.1.left/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633855763215" />
-    <state width="1637" height="410" key="GridCell.Tab.1.left/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632668400423" />
-    <state width="1877" height="456" key="GridCell.Tab.1.left/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-3600.-309.1920.1050" timestamp="1632380107195" />
-    <state width="1072" height="356" key="GridCell.Tab.1.left/74.0.1292.768/-3538.-309.1858.1080/-1680.-288.1680.1020@-1680.-288.1680.1020" timestamp="1633862522779" />
-    <state width="1072" height="356" key="GridCell.Tab.1.right" timestamp="1633862522779">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state width="1073" height="356" key="GridCell.Tab.1.right/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633861355604" />
-    <state width="1815" height="382" key="GridCell.Tab.1.right/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633855763215" />
-    <state width="1637" height="410" key="GridCell.Tab.1.right/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632668400423" />
-    <state width="1877" height="456" key="GridCell.Tab.1.right/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-3600.-309.1920.1050" timestamp="1632380107196" />
-    <state width="1072" height="356" key="GridCell.Tab.1.right/74.0.1292.768/-3538.-309.1858.1080/-1680.-288.1680.1020@-1680.-288.1680.1020" timestamp="1633862522779" />
-    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1632539672984">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632539672984" />
-    <state x="-1415" y="-288" key="SettingsEditor" timestamp="1633861199690">
-      <screen x="-1680" y="-288" width="1680" height="1020" />
-    </state>
-    <state x="-1415" y="-288" key="SettingsEditor/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633861199690" />
-    <state x="278" y="0" key="SettingsEditor/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@74.0.1292.768" timestamp="1633860834702" />
-    <state x="-3163" y="-146" key="Vcs.Push.Dialog.v2" timestamp="1633857429958">
-      <screen x="-3538" y="-309" width="1858" height="1080" />
-    </state>
-    <state x="-3163" y="-146" key="Vcs.Push.Dialog.v2/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633857429958" />
-    <state x="-1341" y="-134" key="Vcs.Push.Dialog.v2/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632552643012" />
-    <state x="-2934" y="-213" width="650" height="888" key="find.popup" timestamp="1633854380366">
-      <screen x="-3538" y="-309" width="1858" height="1080" />
-    </state>
-    <state x="-2934" y="-213" width="650" height="888" key="find.popup/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633854380366" />
-    <state x="497" y="235" key="git4idea.merge.GitPullDialog" timestamp="1640381465684">
-      <screen x="74" y="0" width="1606" height="1050" />
-    </state>
-    <state x="497" y="235" key="git4idea.merge.GitPullDialog/1754.287.1292.768/74.0.1606.1050/-1920.-22.1920.1050@74.0.1606.1050" timestamp="1640381465684" />
-    <state x="-1237" y="-60" key="git4idea.merge.GitPullDialog/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632552148826" />
-    <state x="-2866" y="126" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1633855338948">
-      <screen x="-3538" y="-309" width="1858" height="1080" />
-    </state>
-    <state x="-1072" y="123" key="git4idea.remote.GitConfigureRemotesDialog/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633759934378" />
-    <state x="-2866" y="126" key="git4idea.remote.GitConfigureRemotesDialog/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633855338948" />
-    <state x="778" y="314" key="run.anything.popup" timestamp="1640765698240">
-      <screen x="74" y="0" width="1606" height="1050" />
-    </state>
-    <state x="778" y="314" key="run.anything.popup/1754.287.1292.768/-1920.-22.1920.1050/74.0.1606.1050@74.0.1606.1050" timestamp="1640765698240" />
-    <state x="778" y="314" key="run.anything.popup/1754.287.1292.768/74.0.1606.1050/-1920.-22.1920.1050@74.0.1606.1050" timestamp="1640381515956" />
-    <state x="-944" y="17" key="run.anything.popup/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-1680.-288.1680.1020" timestamp="1633826549203" />
-    <state x="-2724" y="14" key="run.anything.popup/74.0.1292.768/-1680.-288.1680.1020/-3538.-309.1858.1080@-3538.-309.1858.1080" timestamp="1633860359176" />
-    <state x="-944" y="17" key="run.anything.popup/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-1680.-288.1680.1020" timestamp="1632657252591" />
-    <state x="-3123" y="-74" key="run.anything.popup/74.0.1292.768/-1680.-288.1680.1020/-3600.-309.1920.1050@-3600.-309.1920.1050" timestamp="1632372597707" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

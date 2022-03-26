@@ -5,15 +5,15 @@ import '../common/tetrisLogic/block.dart';
 import '../common/tetrisLogic/sub_block.dart';
 import '../../state/tetrisData.dart';
 import 'dart:math';
-import 'package:audioplayers/audio_cache.dart';
-import 'package:audioplayers/audioplayers.dart'; // AudioPlayerインスタンスを使う場合
+// import 'package:audioplayers/audio_cache.dart';
+// import 'package:audioplayers/audioplayers.dart'; // AudioPlayerインスタンスを使う場合
 
 
 
 const BLOCKS_X = 10;// ゲームの幅
 // AudioCacheを用いて再生
-final soundplay = AudioCache();
-AudioPlayer player; // create this
+//final soundplay = AudioCache();
+//AudioPlayer player; // create this
 
 //LANDED:ブロックが地面にあたった時
 //LANDED_BLOCK:ブロックが別のブロックに着地した時
@@ -77,7 +77,7 @@ class GameState extends State<Game>{
   // ゲームスタート準備
   void startGame(){
     print("ゲーム開始");
-    soundplay.play('start.mp3');
+//    soundplay.play('start.mp3');
     playBockSound();//バック音楽
     isGameOver = false;
     Provider.of<Data>(context,listen:false).setIsPlaying(true);
@@ -100,7 +100,7 @@ class GameState extends State<Game>{
   void endGame(){
     print("ゲーム終了");
     stopBockSound();
-    soundplay.play('end.mp3');
+//    soundplay.play('end.mp3');
     Provider.of<Data>(context,listen:false).setIsPlaying(false);
     timer.cancel();
   }
@@ -114,7 +114,7 @@ class GameState extends State<Game>{
       if(action != null){
         if(!checkOnEdge(action)){
           block.move(action);
-          soundplay.play('sousa.mp3');
+//          soundplay.play('sousa.mp3');
         }
       }
       //他のブロックに当たったらそのアクションを戻す。
@@ -186,7 +186,7 @@ class GameState extends State<Game>{
 
     rows.forEach((rowNum, count) {
       if(count == BLOCKS_X){//横ブロックが設定値と同じなら（最大なら）ブロック消し
-        soundplay.play('blockclear.mp3');
+//        soundplay.play('blockclear.mp3');
         combo++;
         Provider.of<Data>(context,listen:false).addScore(combo);//1行3ポイント換算
         
@@ -273,7 +273,7 @@ class GameState extends State<Game>{
 
       if(isGameOver){
         subBlocks.add(getGameOverRect());
-        soundplay.play('gameover.mp3');
+//        soundplay.play('gameover.mp3');
       }
       return Stack(children: subBlocks,);
     });
@@ -338,9 +338,9 @@ class GameState extends State<Game>{
     );
   }
   void playBockSound() async{
-    player = await soundplay.play('backgroundSound/edgewords.mp3'); // assign player here
+    //player = await soundplay.play('backgroundSound/edgewords.mp3'); // assign player here
   }
   void stopBockSound(){
-    player.stop();
+    //player.stop();
   }
 }
