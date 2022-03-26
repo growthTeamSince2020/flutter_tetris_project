@@ -49,7 +49,6 @@ class MyApp extends StatelessWidget {
 //           ),
 //         ),
 //       ),
-//     );
-//  糸井テスト }
+//     );糸井テスト
 // }
 //tooyama
